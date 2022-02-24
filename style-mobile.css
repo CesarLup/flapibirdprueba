@@ -98,9 +98,9 @@ p.footer {
     left: 27.5%;
     top: 80%;
     height: 3px;
-    padding: 2px;//Eliminar sombra, relleno
-    width: 45%;//Eliminar sombra, relleno
-    border-radius: 7px;//Eliminar sombra, relleno4
+    padding: 2px;/*Eliminar sombra, relleno*/
+    width: 45%;/*Eliminar sombra, relleno*/
+    border-radius: 7px;/*Eliminar sombra, relleno4*/
   /* box-shadow: 0 1px 1px #ffffff inset, 0 1px 0 #444;*/
     box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444; /*Eliminar sombra, relleno*/
   /*Eliminar sombra, relleno*/
