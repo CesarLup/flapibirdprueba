@@ -87,27 +87,35 @@ p.footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #171717 url(./splash.png) no-repeat center;
+  //cambia el ícono de bienvenida, cambia el fondo
+  background: #dac48b url(./splash.png) no-repeat center;
   background-size: 45%;
 }
 
 .progress-bar {
+  //cambie el diseño de la barra de proceso
+    background-color: #1a1a1a;
     position: absolute;
     left: 27.5%;
     top: 80%;
     height: 3px;
-    padding: 2px;
-    width: 45%;
-    border-radius: 7px;
-    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
+    padding: 2px;//Eliminar sombra, relleno
+    width: 45%;//Eliminar sombra, relleno
+    border-radius: 7px;//Eliminar sombra, relleno4
+  /* box-shadow: 0 1px 1px #ffffff inset, 0 1px 0 #444;*/
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444; //Eliminar sombra, relleno
+  //Eliminar sombra, relleno
 }
 
 .progress-bar span {
+  //cambie el diseño de la barra de proceso
     display: block;
     height: 100%;
     border-radius: 3px;
+  
     transition: width .4s ease-in-out;
-    background-color: #3dc5de;
+  // cambiar la barra de proceso de color
+    background-color: #79BE29;
 }
 
 .stripes span {
